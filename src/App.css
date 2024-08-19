@@ -1,0 +1,8 @@
+.active{
+    color:aqua;
+    text-decoration: underline;
+}
+
+.glowing-btn:hover{
+    filter: drop-shadow(0 0 10px rgba(0, 187, 255, 0.9));
+}
