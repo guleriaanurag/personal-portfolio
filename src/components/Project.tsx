@@ -13,6 +13,8 @@ const Project: React.FC = ()=>{
                     imageSrc={project.imageSrc} 
                     title={project.title} 
                     description={project.description}
+                    liveLink={project.liveLink}
+                    gitLink={project.gitLink}
                 />
             ))}
         </Element>
